@@ -23,9 +23,14 @@ let cars = {
     color : "red",
     model : "SUV"
 }
+
+
+let car2 = cars;
 // console.log(cars);
-cars.color = "black"
+cars.color = "yellow"
 console.log(cars); // color : black , model : SUV
+
+console.log(cars);
 
 //since Cars is an object and non-primitive data type the original value 
 //will be changed too
