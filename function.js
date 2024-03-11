@@ -27,3 +27,19 @@ const addThree = (num1,num2) => num1 + num2;
 // console.log(usernameDisplay(3,2));
 // console.log(addTwo(2,3));
 // console.log(addThree(5,8));
+
+//(IIFE)
+//Immediately Invoked Function Expression 
+
+//this is called Named IIFE cause name of the function is myFunc
+(function myFunc(){
+    //Name IIFE
+    console.log("DB connected");
+})();
+
+//this function will Immediately invoke as soon as it is executed
+
+
+
+//this is an example of unnamed IIFE cause there is no name for the function
+((name)=>console.log( "Hello, " + name))("DB is connected"); // prathmesh,Hello
