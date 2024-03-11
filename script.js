@@ -26,7 +26,7 @@ function myname4(){
 }
 
 //Functuon Calling
-myname1();
-myname2();
-myname3();
-myname4();
+// myname1();
+// myname2();
+// myname3();
+// myname4();
