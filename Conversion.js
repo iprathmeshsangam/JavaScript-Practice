@@ -45,3 +45,20 @@ let stringNumber = String(someNumber);
 
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+
+//********************Operations****************** */
+
+let str = "hello"
+let str1 = " Hitesh"
+console.log(str + str1);
+
+console.log("2" + 1); // 21 
+
+console.log("2" + 1 + 1); //211
+
+console.log(1 + 1 + "2");  //22
+
+console.log(3 + 4 + 10 % "x"); //NaN
+
