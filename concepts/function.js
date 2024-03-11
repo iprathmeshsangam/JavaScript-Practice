@@ -1,5 +1,7 @@
 //Practice functions and closures 
 
+//Youtube link : https://www.youtube.com/watch?v=9ksqBa8_txM&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=23&pp=iAQB
+
 const brands = {
     brandName : "Zara",
     brandPrice  : 999,
@@ -31,6 +33,8 @@ const addThree = (num1,num2) => num1 + num2;
 //(IIFE)
 //Immediately Invoked Function Expression 
 
+//Youtube Link : https://www.youtube.com/watch?v=GAIbn16Iytc&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=24&pp=iAQB
+
 //this is called Named IIFE cause name of the function is myFunc
 (function myFunc(){
     //Name IIFE
@@ -43,3 +47,13 @@ const addThree = (num1,num2) => num1 + num2;
 
 //this is an example of unnamed IIFE cause there is no name for the function
 ((name)=>console.log( "Hello, " + name))("DB is connected"); // prathmesh,Hello
+
+
+//+++++++++++++++++++++++++++++++++++++
+// global execution context
+//THIS will return object depending on the execution environment, node or browsers
+
+//--> Memory Creation phase 
+//--> Execution Phase
+
+
