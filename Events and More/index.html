@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JavaScript</title>
+</head>
+<body>
+    
+    
+   
+
+    
+        <li class = "list-items">Home</li>
+        <li class = "list-items">Features</li>
+        <li class = "list-items">Contacts</li>
+        <li class = "list-items">Abouts</li>
+        <li class = "list-items">Careers</li>
+    
+    
+
+    <script>
+
+    // const ul = document.querySelector('ul');
+    // console.log(ul);
+    // const li = ul.querySelector('li');
+    // console.log(li);
+    
+    // li.style.backgroundColor= "red";
+    // li.style.padding = "10px";
+    // li.style.color= "white";
+    // li.addEventListener('click' , function(){
+    //     console.log("red is clicked")
+    // });
+    
+
+    // const allLi = document.querySelectorAll('li');
+   
+    // allLi.forEach((li)=>{
+    //    li.style.backgroundColor = "green";
+    //    li.style.color = "white";
+    //    li.style.padding = "20px";
+    //    li.style.margin = "10px";
+    //    li.style.borderRadius = "50px"
+    //    li.style.cursor = "pointer"
+    //    li.style.textAlign = "center"
+    // });
+
+    const allLi = document.getElementsByClassName('list-items');
+    console.log(allLi);
+    
+    const objLi = Array.from(allLi);
+    console.log(objLi);
+
+    objLi.forEach((val)=>{
+         val.style.color= "#fff";
+         val.style.backgroundColor = "green";
+         val.style.listStyleType = "none"
+         val.style.padding = "10px";
+         val.style.margin = "10px";
+         val.style.fontFamily = "sans-serif";
+         val.style.display = "inline-block"
+         val.style.cursor = 'pointer'
+         val.addEventListener('click' ,function(){
+            //onclick we will get the textContent of the elements
+            alert(val.textContent);
+         });
+    });
+
+    
+
+    </script>
+</body>
+</html>
