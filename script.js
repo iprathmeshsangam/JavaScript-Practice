@@ -25,7 +25,7 @@ function myname4(){
     console.log(name);
 }
 
-
+//Functuon Calling
 myname1();
 myname2();
 myname3();
