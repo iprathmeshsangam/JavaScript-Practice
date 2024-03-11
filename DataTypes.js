@@ -22,8 +22,17 @@
     symbol  => Unique
 
 //NON-PREMITIVE DATA TYPE
-    object = 
+    object 
+    Array
+    function
 */
+
+
+//+++++++++++++++++++++++++++++++
+
+//Memory in Js
+
+// Stack(Primitive) heap(Non-Primitive);
 
 
 // console.log(typeof null); // object 
