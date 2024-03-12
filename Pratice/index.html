@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    
+    <div class="root">
+        <h2>Fibonnaci series</h2>
+        <p> Print fibonacci series from 0 to 30 </p>
+    </div>
+
+    <script>
+
+            // fibonacci series from till 30
+
+            let x = 0 ; let y = 1;
+            function fibonacci(n){
+                for (let i=0; i < n;i++){
+                    let fibo = y;
+                     y = y + x;
+                     x = fibo; 
+                     document.write(`fibonacci number for ${i} is : ${fibo} <br>`);
+                }
+
+            }
+
+            fibonacci(30);
+    </script>
+</body>
+</html>
