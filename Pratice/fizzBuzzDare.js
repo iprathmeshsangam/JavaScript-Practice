@@ -1,4 +1,5 @@
  // Fizz Buzz dare 
+ // catch { 1 ,2, Fizz , 4 , Buzz}
 function fbd(){
     for(let i=0; i <= 100;i++){
 
