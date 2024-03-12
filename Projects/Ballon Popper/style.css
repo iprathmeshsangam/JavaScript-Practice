@@ -24,7 +24,7 @@ p{
     font-size: 3rem;
 }
 
-.ballonContainer{
+#ballonContainer{
     /* border:1px red solid; */
     display: flex;
     flex-wrap: wrap;
