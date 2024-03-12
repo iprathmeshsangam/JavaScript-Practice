@@ -8,26 +8,26 @@
 <body>
     
     <div class="root">
-        <h2>Fibonnaci series</h2>
-        <p> Print fibonacci series from 0 to 30 </p>
+        <h2>Javascript practice </h2>
     </div>
 
     <script>
 
-            // fibonacci series from till 30
+           // Fizz Buzz dare 
 
-            let x = 0 ; let y = 1;
-            function fibonacci(n){
-                for (let i=0; i < n;i++){
-                    let fibo = y;
-                     y = y + x;
-                     x = fibo; 
-                     document.write(`fibonacci number for ${i} is : ${fibo} <br>`);
+           function fbd(){
+                for(let i=0; i <= 100;i++){
+
+                    if(i % 3 ==0){
+                        console.log("Fizz");
+                    }else if(i % 5 == 0){
+                        console.log("Buzz");
+                    }
+                    else(console.log(i));
                 }
+           }
 
-            }
-
-            fibonacci(30);
+           fbd();
     </script>
 </body>
 </html>
