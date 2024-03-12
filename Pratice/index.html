@@ -8,26 +8,27 @@
 <body>
     
     <div class="root">
-        <h2>Javascript practice </h2>
+        <h3>Find the largest number </h3>
     </div>
 
     <script>
 
-           // Fizz Buzz dare 
+          //find the largest number from the given number 
 
-           function fbd(){
-                for(let i=0; i <= 100;i++){
-
-                    if(i % 3 ==0){
-                        console.log("Fizz");
-                    }else if(i % 5 == 0){
-                        console.log("Buzz");
-                    }
-                    else(console.log(i));
+          function largest(a,b,c){
+            //find the largest number 
+                let large;
+                if(a > b){
+                    large  = a;
+                }else if ( b > c){
+                    large  = b;
+                }else { 
+                    large = c;
                 }
-           }
+                return large;
+          }
 
-           fbd();
+          console.log((10,20,30));
     </script>
 </body>
 </html>
